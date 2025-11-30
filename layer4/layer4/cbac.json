@@ -1,0 +1,96 @@
+{
+  "agents": {
+    "DevOpsAgent": {
+      "capabilities": [
+        "read_files",
+        "write_files",
+        "list_files",
+        "execute_safe_commands",
+        "manage_services",
+        "browser:open",
+        "api:call",
+        "api:request",
+        "process:start",
+        "network:request",
+        "system:check",
+        "file:read",
+        "file:write",
+        "file:list",
+        "app:launch",
+        "app:start",
+        "app:open",
+        "shell:execute",
+        "terminal:run",
+        "policy:add",
+        "policy:view",
+        "admin:reload",
+        "memory:store",
+        "memory:recall",
+        "tell",
+        "news",
+        "fetch",
+        "get",
+        "show",
+        "display",
+        "launch",
+        "open",
+        "list",
+        "echo",
+        "remember",
+        "recall",
+        "status",
+        "health",
+        "workers",
+        "policies",
+        "audit"
+      ],
+      "forbidden": [
+        "delete_system_files",
+        "format_disk",
+        "rm -rf",
+        "mkfs",
+        "dd"
+      ]
+    },
+    "SmartHomeAgent": {
+      "capabilities": [
+        "control_lights",
+        "control_thermostat",
+        "control_locks"
+      ],
+      "forbidden": [
+        "access_camera_without_approval",
+        "unlock_doors_without_approval"
+      ]
+    },
+    "BackupAgent": {
+      "capabilities": [
+        "read_files",
+        "write_backups",
+        "compress_data"
+      ],
+      "forbidden": [
+        "delete_files",
+        "rm",
+        "unlink"
+      ]
+    },
+    "DataAnalystAgent": {
+      "capabilities": [
+        "read_data",
+        "analyze_data",
+        "generate_reports"
+      ],
+      "forbidden": [
+        "modify_data",
+        "delete_data"
+      ]
+    },
+    "TestAgent": {
+      "capabilities": [
+        "test_capability"
+      ],
+      "forbidden": []
+    }
+  }
+}

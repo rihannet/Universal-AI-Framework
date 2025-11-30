@@ -1,0 +1,21 @@
+{
+  "worker_id": "api_1",
+  "name": "API Fetcher",
+  "worker_type": "api",
+  "capabilities": [
+    "api_calls",
+    "http_requests",
+    "data_fetch"
+  ],
+  "api_keys": {
+    "api_key": "test_api_key_12345"
+  },
+  "endpoints": {
+    "default": "https://api.example.com"
+  },
+  "model_config": {
+    "temperature": 0.5,
+    "max_tokens": 2048
+  },
+  "created_at": "427240.531"
+}

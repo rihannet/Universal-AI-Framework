@@ -1,0 +1,16 @@
+{
+  "worker_id": "app_1",
+  "name": "App Launcher",
+  "worker_type": "app",
+  "capabilities": [
+    "launch_application",
+    "start_program",
+    "open_app"
+  ],
+  "api_keys": {},
+  "endpoints": {},
+  "model_config": {
+    "temperature": 0.7,
+    "max_tokens": 2048
+  }
+}

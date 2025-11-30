@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+redis
+asyncpg
+psycopg2-binary
+ipfshttpclient
+web3
+pinecone[grpc]
+python-json-logger
+langgraph
+langchain
+langchain-core
+pydantic
+aiohttp

@@ -1,0 +1,17 @@
+{
+  "worker_id": "browser_1",
+  "name": "Web Scraper",
+  "worker_type": "browser",
+  "capabilities": [
+    "web_scraping",
+    "browser_automation",
+    "url_fetch"
+  ],
+  "api_keys": {},
+  "endpoints": {},
+  "model_config": {
+    "temperature": 0.3,
+    "max_tokens": 1024
+  },
+  "created_at": "427240.531"
+}

@@ -1,0 +1,17 @@
+{
+  "worker_id": "terminal_1",
+  "name": "Shell Executor",
+  "worker_type": "terminal",
+  "capabilities": [
+    "shell_execution",
+    "command_line",
+    "system_commands"
+  ],
+  "api_keys": {},
+  "endpoints": {},
+  "model_config": {
+    "temperature": 0.2,
+    "max_tokens": 512
+  },
+  "created_at": "427240.531"
+}

@@ -1,0 +1,18 @@
+{
+  "worker_id": "file_1",
+  "name": "File Manager",
+  "worker_type": "file",
+  "capabilities": [
+    "list_files",
+    "read_file",
+    "write_file",
+    "create_file",
+    "delete_file"
+  ],
+  "api_keys": {},
+  "endpoints": {},
+  "model_config": {
+    "temperature": 0.7,
+    "max_tokens": 2048
+  }
+}
