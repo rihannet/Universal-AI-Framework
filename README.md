@@ -2,15 +2,6 @@
 
 > **⚠️ PROTOTYPE NOTICE**: This is a prototype/demonstration system. Layer-5 Web3 features (wallet authentication, blockchain anchoring, IPFS storage) use mock implementations for testing. For production use, integrate real Web3 services.
 
-## 📌 Post-Submission Improvements (Non-Evaluated)
-
-After submission, we experimented with optional enhancements in **main2.py**:
-- LLM-based automatic worker selection
-- Always-on planner mode
-
-These changes do NOT alter the core architecture or design goals. The original rule-based routing and conditional planner logic in **main.py** remain valid and were the basis of the hackathon submission.
-
-**📄 For details on the enhanced version, see [main2.py](main2.py) and [README2.md](README2.md)**
 
 ---
 
