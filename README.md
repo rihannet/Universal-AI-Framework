@@ -2,6 +2,18 @@
 
 > **⚠️ PROTOTYPE NOTICE**: This is a prototype/demonstration system. Layer-5 Web3 features (wallet authentication, blockchain anchoring, IPFS storage) use mock implementations for testing. For production use, integrate real Web3 services.
 
+## 📌 Post-Submission Improvements (Non-Evaluated)
+
+After submission, we experimented with optional enhancements in **main2.py**:
+- LLM-based automatic worker selection
+- Always-on planner mode
+
+These changes do NOT alter the core architecture or design goals. The original rule-based routing and conditional planner logic in **main.py** remain valid and were the basis of the hackathon submission.
+
+**📄 For details on the enhanced version, see [main2.py](main2.py) and [README2.md](README2.md)**
+
+---
+
 Multi-layer AI orchestration framework with natural language interface, worker management, safety governance, and blockchain audit trails.
 
 ## 🎯 Features
@@ -59,8 +71,11 @@ cp .env.example .env
 # Download DeepSeek R1 from LM Studio or use OpenAI API
 # Update LMSTUDIO_BASE_URL in .env
 
-# 5. Run system
+# 5. Run system (original version)
 python main.py
+
+# OR run enhanced version
+python main2.py
 ```
 
 ## 💬 How to Use
@@ -149,6 +164,7 @@ Result
 - **TECHNICAL_DOCUMENTATION.md** - Complete technical specs
 - **QUICK_REFERENCE.md** - Command reference
 - **DOCUMENTATION_INDEX.md** - Navigation guide
+- **README2.md** - Enhanced version details (main2.py)
 
 ## 🧪 Testing
 
@@ -190,7 +206,10 @@ Update `LMSTUDIO_BASE_URL` in `.env`
 
 ```
 AWS HACKATHON/
-├── main.py                    # Main entry point
+├── main.py                    # Main entry point (original)
+├── main2.py                   # Enhanced version (post-submission)
+├── README.md                  # This file
+├── README2.md                 # Enhanced version documentation
 ├── SYSTEM_TEST.py             # System tests
 ├── requirements.txt           # Dependencies
 ├── docker-compose.yml         # Docker services
@@ -272,8 +291,11 @@ python -c "from layer4.layer4.layer4_main import create_layer4; l4 = create_laye
 # Layer-5 only
 python -c "from layer5.layer5.layer5_main import create_layer5; l5 = create_layer5()"
 
-# Full system
+# Full system (original)
 python main.py
+
+# Full system (enhanced)
+python main2.py
 ```
 
 ## 🤝 Contributing
