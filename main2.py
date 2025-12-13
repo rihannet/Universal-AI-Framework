@@ -136,7 +136,7 @@ class UniversalAISystem:
             worker_id,
             clean_command,
             {"agent_type": "DevOpsAgent"},
-            use_planner=False
+            use_planner=True  # Always-on planner mode
         )
         
         # If Layer-4 blocked, ask for permission
